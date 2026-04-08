@@ -1,0 +1,7 @@
+target/
+*.class
+*.csv
+price_monitor.py
+__pycache__/
+*.pyc
+.vscode/

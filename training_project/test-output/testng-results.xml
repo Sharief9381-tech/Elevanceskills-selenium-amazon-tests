@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-23T05:47:36 IST" name="Suite" finished-at="2024-09-23T05:48:18 IST" duration-ms="42131">
+    <groups>
+    </groups>
+    <test started-at="2024-09-23T05:47:36 IST" name="Test" finished-at="2024-09-23T05:48:18 IST" duration-ms="42131">
+      <class name="testcases.AmazonProductDetailsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AmazonProductDetailsTest@563f38c4]" started-at="2024-09-23T05:47:36 IST" name="setup" finished-at="2024-09-23T05:47:36 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyProductDetailsAndAddToCart()[pri:2, instance:testcases.AmazonProductDetailsTest@563f38c4]" started-at="2024-09-23T05:47:52 IST" name="VerifyProductDetailsAndAddToCart" finished-at="2024-09-23T05:48:09 IST" duration-ms="16990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductDetailsAndAddToCart -->
+      </class> <!-- testcases.AmazonProductDetailsTest -->
+      <class name="testcases.AmazonLoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AmazonLoginTest@117159c0]" started-at="2024-09-23T05:47:36 IST" name="setup" finished-at="2024-09-23T05:47:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="amazonLogin()[pri:4, instance:testcases.AmazonLoginTest@117159c0]" started-at="2024-09-23T05:48:10 IST" name="amazonLogin" finished-at="2024-09-23T05:48:14 IST" duration-ms="4041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonLogin -->
+      </class> <!-- testcases.AmazonLoginTest -->
+      <class name="testcases.ShoppingCartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ShoppingCartTest@543295b0]" started-at="2024-09-23T05:47:39 IST" name="setup" finished-at="2024-09-23T05:47:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SearchForAProduct()[pri:3, instance:testcases.ShoppingCartTest@543295b0]" started-at="2024-09-23T05:48:09 IST" name="SearchForAProduct" finished-at="2024-09-23T05:48:10 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchForAProduct -->
+      </class> <!-- testcases.ShoppingCartTest -->
+      <class name="testcases.AmazonSearchProductsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AmazonSearchProductsTest@173ed316]" started-at="2024-09-23T05:47:36 IST" name="setup" finished-at="2024-09-23T05:47:39 IST" duration-ms="2364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="serachedProductPageOpened()[pri:0, instance:testcases.AmazonSearchProductsTest@173ed316]" started-at="2024-09-23T05:47:39 IST" name="serachedProductPageOpened" finished-at="2024-09-23T05:47:52 IST" duration-ms="12874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serachedProductPageOpened -->
+        <test-method signature="clickOnRequiredProduct()[pri:1, instance:testcases.AmazonSearchProductsTest@173ed316]" started-at="2024-09-23T05:47:52 IST" name="clickOnRequiredProduct" finished-at="2024-09-23T05:47:52 IST" duration-ms="781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnRequiredProduct -->
+      </class> <!-- testcases.AmazonSearchProductsTest -->
+      <class name="testcases.AmazonProductCheckoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.AmazonProductCheckoutTest@3e27ba32]" started-at="2024-09-23T05:47:33 IST" name="setup" finished-at="2024-09-23T05:47:36 IST" duration-ms="3387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="useAddress()[pri:5, instance:testcases.AmazonProductCheckoutTest@3e27ba32]" started-at="2024-09-23T05:48:14 IST" name="useAddress" finished-at="2024-09-23T05:48:18 IST" duration-ms="4574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useAddress -->
+      </class> <!-- testcases.AmazonProductCheckoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
